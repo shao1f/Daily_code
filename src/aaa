@@ -1,7 +1,0 @@
-web_server:main.cc web_server.cc threadpool.cc 
-	g++ -o $@ $^ -lpthread
-
-.PHONY:clean
-
-clean:
-	rm -f web_server
